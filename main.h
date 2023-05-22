@@ -1,7 +1,8 @@
-#indef MAIN_H
-#def MAIN_H
-#include <stdio>
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
+#include <unstd.h>
 
+int _putchar(char c);
 
-
-#endif /* MINA_H */
+#endif /* MAIN_H */

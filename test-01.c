@@ -2,19 +2,19 @@
 
 int main () {
 
-int num1, num2, sum;
+    int num1, num2, sum;
 
-// User inputs two integers
-printf("Enter two integer:");
+    // User inputs two integers
+    printf("Enter two integers:");
 
-// Stores user inputs
-scanf("%d %d, num1, num2);
+    //Store users data
+    scanf("%d %d", num1, num2);
 
-// Calculate sum
-sum = num1 + num2;
+    //Calculate sum
+    sum = num1 + num2;
 
-// Print sum
-printf("%d + %d = %d, num1 + num2 = sum);
-return 0;
+    //Print sum
+    printf("%d + %d = %d", num1, num2, sum);
+    return 0;
 }
 
