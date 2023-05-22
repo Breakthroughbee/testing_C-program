@@ -11,16 +11,16 @@ printf("Enter integer: ");
 scanf("%d %d", num1, num2);
 
 // if num is positive
-if (num1 >  0){
-	printf("The number %d" is positive, num1);
+if (num1 > 0){
+	printf("The Number %d" is positive, num1);
 }
 else if (num1 = 0){
-	printf("The number %d" is 0, num1);
+	printf("The Number %d" is 0, num1);
 }
 else {
-	printf("The number %d" is negative, num1);
+	printf("The Number %d" is negative, num1);
 }
 }
-printf("\nInvalid answer");
+printf("\nInvalid Answer");
 return 0;
 }
